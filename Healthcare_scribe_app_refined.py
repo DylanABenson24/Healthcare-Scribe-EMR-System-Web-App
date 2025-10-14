@@ -1,17 +1,6 @@
 # healthcare_scribe_app_streamlit.py
 
-import spacy
 import streamlit as st
-
-# Ensure spaCy model is available
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    with st.spinner("Downloading spaCy model..."):
-        from spacy.cli import download
-        download("en_core_web_sm")
-        nlp = spacy.load("en_core_web_sm")
-
 import spacy
 import sqlite3
 from datetime import datetime
@@ -303,3 +292,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
