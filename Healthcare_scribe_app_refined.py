@@ -297,5 +297,25 @@ def main():
         else:
             st.warning("No transcription available. Process a clinical note first.")
 
+# ===============================
+# LEARN MORE
+# ===============================
+with st.expander("📖 Learn More About This App"):
+    st.markdown("""
+    **Healthcare Scribe & EMR System** is an AI-assisted clinical documentation assistant that helps medical providers:
+    
+    - **Transcribe and Review Notes**: Generate synthetic demo transcriptions or paste your own clinical notes for review.
+    - **Organize Notes into SOAP Format**: Automatically structures notes into **Subjective, Objective, Assessment, and Plan** sections using keyword-based extraction.
+    - **Extract Key Medical Entities**: Identifies symptoms, medications (with dosages), diagnoses, procedures, and vital signs from the clinical text.
+    - **Patient & Visit Management**: Create patient records and visits in a SQLite database for documentation and future reference.
+    - **Visit Overview / Demo**: Quickly review the last processed clinical note, including structured SOAP sections and extracted entities.
+    
+    ⚠️ **Note:** The summarization is currently rule-based using keywords. It does **not** use an AI language model to generate summaries, but it organizes and highlights clinical information effectively for documentation purposes.
+    
+    This tool is ideal for **training, demonstrations, or streamlining note-taking** in medical workflows.
+    """)
+
+
 if __name__ == "__main__":
     main()
+
