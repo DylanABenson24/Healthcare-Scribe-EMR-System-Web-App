@@ -65,4 +65,16 @@ Instead, it relies on:
 Regular expressions + curated medical term lists.
 
 ### 🗄️ **Database**
-All patients and visit notes are stored in:
+All patients and visit notes are stored in database.
+
+
+### 🗺️ Roadmap / Future Enhancements ###
+- AI-powered SOAP summarization (OpenAI, Claude, etc.)
+- Speech-to-text (Whisper)
+- Visit history + patient search
+- Export to FHIR or HL7
+- User authentication
+- Public Streamlit Cloud deployment
+
+### 📄 License ###
+Licensed under the MIT License.
