@@ -78,3 +78,6 @@ All patients and visit notes are stored in database.
 
 ### 📄 License ###
 Licensed under the MIT License.
+
+### 📈 Streamlit Link ###
+[https://healthcare-scribe-emr-system-web-app-82ssbttahkzvayprve9hsd.streamlit.app/](url)
